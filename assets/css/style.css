@@ -3,6 +3,9 @@ html, body{ height: fit-content; width: 100%; margin: 0px; padding: 0px;}
 body{ 
     background: radial-gradient(rgb(63, 63, 63), grey, white);
     background-repeat: no-repeat;
+    /*    background-image: url('../img/bg-nevem.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 p{ font-size: 16px; } 
 h3{ font-size: 18px; }
@@ -25,7 +28,7 @@ a{
 main{
     margin: 10% 10%;
     width: 80%;
-    height: 80%;
+    height: 80%; 
 }
 main section{
     padding: 8.3%;
@@ -49,19 +52,7 @@ main section.sp{
 .img-t{ width: auto; box-shadow: #a5a5a5 -8px -8px 6px -1px;}
 .bg-1{ background-color: rgb(150, 150, 150); }
 .bg-2{ background-color: rgb(180, 180, 180); }
-.bg-3{ background-color: rgb(200, 200, 200); }
+.bg-3{ background-color: rgb(200, 200, 200); background-image: url('../img/bg-teclado.png'); background-repeat: no-repeat; background-size: auto 100%;  background-position: right;}
 .bg-4{ background-color: rgb(250, 250, 250); position: relative; overflow: hidden;}
 .bg-4 .up { z-index: 999;}
-.bg-4::before{
-    z-index: 1;
-    content: '';
-    position: absolute;
-    transform: rotate(10deg);
-    top: -500px;
-    width: 120%;
-    left: -50px;
-    height: 100%;
-    background: #c8c8c8;
-}
-
 .box-img{ width: 200px; }
