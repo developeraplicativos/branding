@@ -88,3 +88,36 @@ section div.bg-3{
 .box-img{ max-width: 200px; }
 .img-center img{ -webkit-transition-property: all; -webkit-transition-duration: 0.3s; }
 .img-center img:hover{ transform: scale(1.5); z-index: 4; margin: 20px; }
+@media only screen and (max-width: 991px){ 
+    .box-image {
+        padding-right: initial!important; 
+    }
+
+
+    #sobre-projetos{
+        display: block!important;
+    }
+
+    #sobre-projetos .div-yellow{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #sobre-projetos .div-yellow .text-end{
+        text-align: left!important;
+    }
+}
+@media only screen and (max-width: 730px){ 
+    #nav {
+        display: none!important; 
+    }
+    .box-image img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 660px){ 
+    main{
+        min-width: 480px!important;
+        margin: 0px!important;
+        width: 100%;
+    }
+}
