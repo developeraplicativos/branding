@@ -123,6 +123,6 @@ section div.bg-3{
     }
     #logomarcas .row.justify-content-md-center.justify-content-sm-center{ --bs-gutter-x: initial; }
     .box-image img{ max-width: 100%; }
-    .img-center img{ width: 180px;}
+    .img-center img{ width: 180px; padding: 5%; }
     .img-center img:hover{ transform: scale(1.3); z-index: 4; margin: 10px;}
 }
